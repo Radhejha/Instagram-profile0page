@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background: #FAFAFA;
+    color: #262626;
+    font-size: 17px;
+    line-height: 21px;
+    padding-bottom: 40px;
+}
+header {
+    height: 54px;
+    border-bottom: 1px solid #DBDBDB;
+    background: #fff;
+}
+.logo {
+    height: 10px;
+    width:10px;
+    margin-top: 8px;
+    float: left;
+}
+.container {
+    width: 935px;
+    margin: auto;
+}
+
+.instalogo {
+    height: 50px;
+    width:90px;
+    
+}
+.search {
+    width: 215px;
+    height: 29px;
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    justify-content: center;
+    border-radius: 3px;
+    float: left;
+    justify-content: center;
+    margin-left: 297px;
+    margin-top: 10px;
+    padding-left: 20px;
+    color: #8F8F8F;
+}
+.icons {
+    padding-left: 0px;;
+}
+.iconbar {
+    float: right;
+    padding-left: 25px;
+    padding-top: 12px;
+}
+.iconbar img {
+    width: 25px;
+    height: 30px;
+    float: left;
+    margin-right: 20px;
+}
+.iconbar img :last-child {
+    margin-right: 0;
+}
+
+.prof {
+    border-radius: 50%;
+    overflow: hidden;
+}
+/* Account Information */
+.account {
+    margin-top: 39px;
+}
+
+.account__left {
+    float: left;
+}
+
+.account__right 
+{
+    width: 630px;
+    float: right;
+}
+
+.account__left img{
+    margin-left: 69px;
+    border-radius: 50%;
+}
+
+.user-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    color: #262626;
+    vertical-align: middle;
+}
+
+.account button {
+    height: 28px;
+    background: #0095f6;
+    border-radius: 3px;
+    border: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.btn-follow {
+    width: 96px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.btn-more {
+    width: 33px;
+}
+
+.btn-more::before {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 4px solid transparent;
+    border-top-color: #fff;
+    border-bottom: 0;
+    position: relative;
+    top: -3px;
+}
+
+.account .btn-info {
+    background: transparent;
+    margin-left: 5px;
+}
+
+.btn-info span {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #262626;
+    position: relative;
+    top: -3px;
+}
+
+.stats {
+    margin: 21px 0;
+}
+
+.account-stat {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    float: left;
+    margin-right: 39px;
+}
+
+.account-stat:last-child {
+    margin-right: 0;
+}
+
+.user-name-small {
+    font-weight: bold;
+}
+
+.user-link {
+    color: #00376b;
+    text-decoration: none;
+}
+.para {
+    padding-top: 7px;
+}
+
+
+
+/* Stories */
+
+
+.stories {
+    margin: 55px 0;
+}
+
+.stories .container {
+    padding: 0 40px;
+}
+
+.story {
+    float: left;
+    margin-right: 55px;
+}
+
+.story:last-child {
+    margin-right: 0;
+}
+
+.story img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+    display: block;
+    border: 2px solid #8e8e8e;
+    padding: 0;
+}
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.story figcaption {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #262626;
+}
+
+/* Feed styles */
+
+.feed .container {
+    border-top: 1px solid #DBDBDB;
+}
+
+.toolbar {
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: -1px;
+}
+
+.toolbar button {
+    margin-right: 20px;
+}
+
+.toolbar button:last-child {
+    margin-right: 0;
+}
+
+.btn-posts,
+.btn-tagged {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.09em;
+    color: #8F8F8F;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-top: 1px solid #8F8F8F;
+    padding-top: 18px;
+}
+
+.btn-posts {
+    padding-left: 3px;
+}
+
+.btn-tagged {
+    padding-left: 3px;
+}
+
+.btn-posts.active,
+.btn-tagged.active {
+    color: #262626;
+}
+
+.feed-list img {
+    float: left;
+    margin: 25px 25px 0 0;
+}
+
+.feed-list img:nth-child(3n) {
+    margin-right: 0;
+}
